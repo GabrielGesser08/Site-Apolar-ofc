@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+ 
+ 
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+ 
+input{
+    margin-top: .5rem;
+}
+ 
+.t{
+    padding: .7rem;
+    padding-inline: 8rem;
+    background-color: rgb(245, 245, 245);
+    border-radius: .5rem;
+    border: .1px solid;
+}
+ 
+.img{
+    margin-top: -2.5rem;
+    margin-left: 5px;
+}
+ 
+.botoes{
+    margin-right: 8rem;
+}
+ 
+.botao01{
+    padding-inline: 1rem;
+    padding: .5rem;
+    border-radius: 2rem;
+    margin-inline: 1.5rem;
+    margin-top: .5rem;
+    border: 1.5px gold solid;
+    background-color: #fff;
+}
+ 
+.botao02{
+    padding-inline: 1rem;
+    padding: .5rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: gold;
+   
+}
+ 
+.sidebar {
+    margin-top: 3rem;
+    width: 27rem;
+    height: 100vh; /* Altura total da janela */
+    overflow-y: scroll; /* Adiciona o scroll vertical */
+    background-color: #dadada;
+    padding: 15px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    flex-shrink: 0;
+}
+ 
+/* Conteúdo dentro da barra lateral */
+.sidebar-content {
+    height: 1500px; /* Altura maior para demonstrar o scroll */
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.limparTudo{
+    color: red;
+    font-size: 16px;
+    margin-top: 1rem;
+}
+ 
+.filtros{
+    font-size: 16px;
+    margin-top: 1rem;
+}
+ 
+.lixeiraVermelha{
+    border: none;
+}
+
+/*filtos e pesquisa*/
+
+.drop{
+    margin-top: -90rem;
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    background-color: gold;
+    border-radius: .5rem;
+    border: 1px black solid;
+}
+ 
+.filtroAplicado{
+    border: none;
+    background-color: transparent;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    padding: .5rem;
+}
+ 
+.pesquisaAtual{
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+    padding: .5rem;
+}
+
+/*botoes compra ou aluga*/
+
+.compraOuAluga{
+    margin-top: 2rem;
+    display: flex;
+
+}
+ 
+.compra{
+    padding: .7rem;
+    padding-inline: 4rem;
+    border: 2px gold solid;
+    background-color: #fff;
+    border-radius: .5rem;
+}
+ 
+.aluga{
+    padding: .7rem;
+    padding-inline: 4rem;
+    border: 2px gold solid;
+    background-color: #fff;
+    border-radius: .5rem;
+    margin-left: 1rem;
+}
+ 
+.btn-group{
+    margin-top: 2rem;
+}
+
+.dropdown{
+    border: 1px black solid;
+    padding-right: 16.2rem;
+    margin-block: -.7rem;
+    border-radius: .4rem;
+}
+
+.SelecaoPaís{
+    justify-content: flex-start;
+    display: flex;
+    font-size: 15px;
+}
+
+.país{
+    font-size: 14px;
+    text-align: start;
+    justify-content: flex-start;
+    display: flex
+}
+
+
+/*ImovelEComercial*/
+
+.ImovelEComercial{
+    margin-top: .5cm;
+    display: flex;
+    justify-content: space-between;
+    padding: .3rem;
+    border: 1px black solid;
+    border-radius: .5rem;
+}
+
+
+
+.imovel{
+    padding: .7rem;
+    padding-inline: 1.5rem;
+    border: 2px gold solid;
+    background-color: #fff;
+    border-radius: .5rem;
+}
+
+
+.comercial{
+    padding: .7rem;
+    padding-inline: 3.3rem;
+    border: 2px gold solid;
+    background-color: #fff;
+    border-radius: .5rem;  
+}
+
+/*botoesTiposImoveis*/
+
+.tituloTipos{
+    margin-top: 2rem;
+}
+
+.botoesTiposImoveis{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: -3rem;
+    border: none;
+}
+
+.linhaButton01{
+    border-bottom: 2px black solid;
+    margin-top: 2rem;
+}
+
+.BtiposDeImoveis{
+    padding-inline: 1.2rem;
+    border: none;
+    background-color: #fff;
+    border-radius: .5rem; 
+    margin-bottom: 2rem;
+    border: black solid 1px;   
+}
+
+
+
+
+
+
+.tiposDeImoveis01{
+    margin: 5px;
+    padding-block: 1.5rem;
+    padding-inline: 10px;
+    border: 2px gold solid;
+    background-color: #fff;
+    border-radius: .5rem; 
+    
+}
+.tiposDeImoveis02{
+    margin: 5px;
+    padding-block: 1.5rem;
+    padding-inline: 20px;
+    border: 2px gold solid;
+    background-color: #fff;
+    border-radius: .5rem; 
+    
+}
+
+.margin{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.margin02{
+
+    display: flex;
+    justify-content: space-between;
+} 
+
+/*conteudo geral*/
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.conteudoGeral {
+    position: absolute;/* Fixo em relação à janela */
+    top: 3.5cm;      /* Distância do topo */
+    left: 30rem;      /* Distância da lateral esquerda */
+    width: 28cm;    /* Tamanho fixo */
+    height: 200px;
+    background-color: lightblue;
+}
+
+.buttons{
+    display: flex;
+    justify-content: end;
+    margin-top: -2rem;
+    border-radius: .5rem;
+}
+
+.ordenar{
+    margin-left: 1rem;
+}

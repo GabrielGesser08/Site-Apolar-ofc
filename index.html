@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apolar Caiobá</title>
+    <link rel="stylesheet" href="./assets/styles/estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+<body>
+    <header>
+        <div class="cabecalho">
+            <img src="./assets/img/logo.png" width="90px" height="50px" alt="">
+            <div class="input">
+                <input class="t" type="text" placeholder="Bairro, cidade e estado">
+                <div class="img">
+                    <img src="./assets/img/lupaPesquisa.png" width="25px" height="25px" alt="">
+                </div>
+               
+            </div>
+            <div class="botoes">
+                <button type="button" class="botao01" >Anuncie</button>
+                <button type="button" class="botao02" >Área do cliente</button>
+            </div>
+        </div>
+    </header>
+ 
+   
+    <main>
+      <div class="sidebar">
+        <div class="sidebar-content">
+          <p class="filtros">Filtros</p>
+          <p class="limparTudo">Limpar tudo
+              <button type="button" class="lixeiraVermelha">
+                  <img src="./assets/img/lixeiraVermelha.png" width="20px" height="20px" alt="">
+              </button>
+          </p>
+         
+      </div>
+      <div class="drop">
+          <h5 class="pesquisaAtual">Pesquisa atual<h5>
+          <button class="filtroAplicado">Filtros aplicados</button>
+      </div>
+      <div class="compraOuAluga">
+          <button class="compra" type="button">Comprar</button>
+          <button class="aluga" type="button">Alugar</button>
+      </div>
+      <div class="btn-group">
+          <button class="dropdown" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+            <h6 class="SelecaoPaís">País</h6>
+            <h6 class="país">Procurar por país ></h6>
+          </button>
+          <ul class="dropdown-menu">
+            <li><input type="text" placeholder="Pesquisar:"></li>
+            <li><a class="dropdown-item" href="#">Brasil</a></li>
+            <li><a class="dropdown-item" href="#">Paraguay</a></li>
+          </ul>
+        </div>
+        <div class="btn-group">
+          <button class="dropdown" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+            <h6 class="SelecaoPaís">Cidade</h6>
+            <h6 class="país">Procurar por cidade ></h6>
+          </button>
+          <ul class="dropdown-menu">
+            <li><input type="text" placeholder="Pesquisar:"></li>
+            <li><a class="dropdown-item" href="#">Matinhos</a></li>
+            <li><a class="dropdown-item" href="#">Curitiba</a></li>
+          </ul>
+        </div>
+        <div class="btn-group">
+          <button class="dropdown" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+            <h6 class="SelecaoPaís">Bairro</h6>
+            <h6 class="país">Procurar por bairro ></h6>
+          </button>
+          <ul class="dropdown-menu">
+            <li><input type="text" placeholder="Pesquisar:"></li>
+            <li><a class="dropdown-item" href="#">Caiobá</a></li>
+            <li><a class="dropdown-item" href="#">Centro</a></li>
+          </ul>
+        </div>
+        <div class="btn-group">
+          <button class="dropdown" type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+            <h6 class="SelecaoPaís">Referência</h6>
+            <h6 class="país">Digite uma referência ></h6>
+          </button>
+          <ul class="dropdown-menu">
+            <div class="margin02">
+              
+            </div>
+            <li><input type="text" placeholder="Pesquisar:"></li>
+            <li><a class="dropdown-item" href="#">00001</a></li>
+            <li><a class="dropdown-item" href="#">00002</a></li>
+          </ul>
+        </div>
+
+        <!--tipo de imóveis-->
+        <div class="linhaButton01"></div>
+        <h4 class="tituloTipos">Tipos de imóveis:</h4>
+        
+
+        <div class="ImovelEComercial">
+          
+          <button class="imovel" type="button">Imóvel para morar</button>
+          <button class="comercial" type="button">Comercial</button>
+
+      </div>
+      
+      <div class="botoesTiposImoveis">
+        <!--<div class="linhaButton">-->
+          <button class="BtiposDeImoveis" type="button">Residencial</button>
+          <button class="BtiposDeImoveis" type="button">Lançamentos</button>
+          <button class="BtiposDeImoveis" type="button">Triple A</button>
+        <!--</div>-->
+        
+      </div>
+
+      <div class="TiposImoveis">
+
+        <div class="margin" >
+          <button class="tiposDeImoveis01" type="button">
+            <img src="./assets/img/apartamento-removebg-preview.png" width="70px" alt="">
+            <p>Apartamento</p>
+          </button>
+          <button class="tiposDeImoveis01" type="button">
+            <img src="./assets/img/casa_e_sobrado-removebg-preview.png" width="70px" alt="">
+            <p>Casa e sobrado</p>
+          </button>
+          <button class="tiposDeImoveis01" type="button">
+            <img src="./assets/img/sobrado_e_kitnet-removebg-preview.png" width="70px" alt="">
+            <p>Studio e kitnet</p>
+          </button>
+        </div>
+
+          <div class="margin02">
+            <button class="tiposDeImoveis02" type="button">
+              <img src="./assets/img/terreno-removebg-preview.png" width="72" alt="">
+            <p>Terreno</p>
+            </button>
+              <button class="tiposDeImoveis02" type="button">
+                <img src="./assets/img/garden-removebg-preview.png" width="75px" alt="">
+                <p>Garden</p>
+              </button>
+            <button class="tiposDeImoveis02" type="button">
+              <img src="./assets/img/cobertura-removebg-preview.png" width="70px" alt="">
+              <p>Cobertura</p>
+            </button>
+          </div>
+
+      </div>
+      </div>
+      <div class="container">
+        <div class="conteudoGeral">
+          <h6>00 Resultados</h6>
+          <h4>Imóveis à venda em...
+            <div class="buttons">
+              <button class="visualizacao" type="button">Visualização</button>
+              <button class="ordenar" type="button">Visualização</button>
+            </div>
+          </h4>
+          .
+        </div>
+      </div>
+      
+
+      
+    </main>
+        
+            
+
+          
+
+    
+ 
+    <footer>
+ 
+    </footer>
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
