@@ -5,7 +5,9 @@
 }
  
  
- 
+html, body {
+    overflow-x: hidden;
+}
 .cabecalho{
     display: flex;
     justify-content: space-between;
@@ -53,11 +55,11 @@ input{
 }
  
 .sidebar {
-    margin-top: 3rem;
+    margin-top: 2rem;
     width: 27rem;
-    height: 100vh; /* Altura total da janela */
+    height: 100%; /* Altura total da janela */
     overflow-y: scroll; /* Adiciona o scroll vertical */
-    background-color: #dadada;
+    background-color: #fcfcfc;
     padding: 15px;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
     flex-shrink: 0;
@@ -263,18 +265,21 @@ input{
 
 /*conteudo geral*/
 
-.container{
-    width: 100%;
-    height: 100%;
-}
+
+    .container {
+        width: 100vw; /* 90% da largura da janela */
+        padding: 2rem;
+    }
+    
+
 
 .conteudoGeral {
     position: absolute;/* Fixo em relação à janela */
-    top: 3.5cm;      /* Distância do topo */
+    top :3cm;      /* Distância do topo */
     left: 30rem;      /* Distância da lateral esquerda */
-    width: 28cm;    /* Tamanho fixo */
+    width: 60vw;;    /* Tamanho fixo */
     height: 200px;
-    background-color: lightblue;
+
 }
 
 .buttons{
@@ -286,4 +291,49 @@ input{
 
 .ordenar{
     margin-left: 1rem;
+}
+
+@media (max-width: 600px) {
+    .menu {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 1024px) {
+    .menu {
+        flex-direction: row;
+    }
+}
+
+/*Cards*/
+
+.card-group{
+    border: 1px gold solid;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.card{
+    margin-inline: 2rem;
+}
+
+.informacoesImovel{
+    border: none;
+    background-color: transparent;
+}
+
+.card-title{
+    text-align: start;
+    font-size: 29px;
+    color: aqua;
+}
+
+.card-text{
+    text-align: start;
+    color: black;
+}
+
+.text-body-secondary{
+    border: none;
+    background-color: transparent;
 }
