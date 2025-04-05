@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
  
+body{
+    height: 150rem;
+}
  
 html, body {
     overflow-x: hidden;
@@ -11,9 +14,12 @@ html, body {
 .cabecalho{
     display: flex;
     justify-content: space-between;
+    margin-left: 6rem;
     margin-top: 2rem;
 }
- 
+
+
+
 input{
     margin-top: .5rem;
 }
@@ -315,6 +321,7 @@ input{
 
 .card{
     margin-inline: 2rem;
+    display: table;
 }
 
 .informacoesImovel{
@@ -336,4 +343,20 @@ input{
 .text-body-secondary{
     border: none;
     background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+
+.linhaAmarela{
+    border-bottom: 2px gold solid;
+    margin-top: 6rem;
 }
